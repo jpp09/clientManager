@@ -1,0 +1,34 @@
+Título do projeto: N/A
+
+OBJ: ERP de clientes e serviços
+
+Funcionalidades:
+
+- 1 - Criar um estabelecimento
+	1.1 - Criação de clientes para esse estabelecimento
+	1.2 - Gerenciamento da semana para os clientes
+	1.3 - Catalogação dos serviço do estabelecimento
+
+Entidades:
+
+Estabelecimento(0,n):
+
+Atributos:
+CNPJ - pk
+nome
+telefone
+logo_estabelecimento - Ideias futuras
+dias_funcionamento
+
+	-> (1,n) - Clientes:
+		Atributos:
+		id - pk
+		nome
+		telefone
+
+	-> (1,n) - Serviços
+		Atributos:
+		id - pk
+		tipo
+		intervalo
+		
