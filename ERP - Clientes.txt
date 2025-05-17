@@ -17,8 +17,7 @@ Atributos:
 CNPJ - pk
 nome
 telefone
-logo_estabelecimento - Ideias futuras
-dias_funcionamento
+funcionamento
 
 	-> (1,n) - Clientes:
 		Atributos:
@@ -26,7 +25,7 @@ dias_funcionamento
 		nome
 		telefone
 
-	-> (1,n) - Serviços
+	-> (1,n) - Serviços - Modelo criado
 		Atributos:
 		id - pk
 		tipo
